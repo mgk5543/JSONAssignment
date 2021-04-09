@@ -1,0 +1,62 @@
+#pokemonGrid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 80vw;
+}
+body{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 4vw;
+}
+.gridContentItem{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.pokemonImage{
+  width: 50%;
+  max-height: 20vw;
+  object-fit: cover;
+}
+#bg{
+  position: fixed;
+  width: 100vw;
+  left: -1vw;
+  top: -1vw;
+  z-index: -10;
+}
+h1{
+  font-family: 'Press Start 2P', cursive;
+  font-size: 2vw;
+  text-align: center;
+  margin: 3vw;
+  text-shadow: -2px -2px 0 white, 2px -2px 0 white, -2px 2px 0 white, 2px 2px 0 white;
+}
+#logo{
+  width: 40vw;
+  display: flex;
+  position: relative;
+  top: 2vw;
+}
+h2{
+  font-family: 'Press Start 2P', cursive;
+  text-align: center;
+  font-size: 2.3vw;
+  margin: 3vw 0;
+}
+p{
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  font-size: 1.5vw;
+  margin: 0;
+  margin-top: 1.5vw;
+  font-weight: lighter;
+}
+.typeText{
+  font-weight: bolder;
+}
+ul{
+  font-family: 'Open Sans', sans-serif;
+  padding-bottom: 2vw;
+}
