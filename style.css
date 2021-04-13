@@ -13,11 +13,18 @@ body{
   display: flex;
   flex-direction: column;
   align-items: center;
+  border-radius: 2vw;
+  margin: .7vw;
+  border-width: .6vw;
+  border-style: solid;
 }
 .pokemonImage{
-  width: 50%;
+  width: 60%;
   max-height: 20vw;
   object-fit: cover;
+  border-radius: 2vw;
+  border-width: .6vw;
+  border-style: solid;
 }
 #bg{
   position: fixed;
@@ -42,7 +49,7 @@ h1{
 h2{
   font-family: 'Press Start 2P', cursive;
   text-align: center;
-  font-size: 2.3vw;
+  font-size: 2vw;
   margin: 3vw 0;
 }
 p{
